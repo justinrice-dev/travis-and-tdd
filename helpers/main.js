@@ -1,8 +1,8 @@
 module.exports = {
-    is_phone_number: () => {
-
+    is_odd: (num) => {
+        return num % 2 !== 0;
     },
     is_even: (num) => {
-        return num % 2 === 0
+        return num % 2 === 0;
     }
 }
